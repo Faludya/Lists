@@ -1,0 +1,57 @@
+﻿  main.c
+D:\Codes\BST\main.c(11,21): warning C4047: 'function': 'bst_node **' differs in levels of indirection from 'bst_node *'
+D:\Codes\BST\main.c(11,17): warning C4024: 'insert_node': different types for formal and actual parameter 1
+D:\Codes\BST\main.c(12,21): warning C4047: 'function': 'bst_node **' differs in levels of indirection from 'bst_node *'
+D:\Codes\BST\main.c(12,17): warning C4024: 'insert_node': different types for formal and actual parameter 1
+D:\Codes\BST\main.c(13,21): warning C4047: 'function': 'bst_node **' differs in levels of indirection from 'bst_node *'
+D:\Codes\BST\main.c(13,17): warning C4024: 'insert_node': different types for formal and actual parameter 1
+D:\Codes\BST\main.c(9,9): warning C4101: 'data': unreferenced local variable
+  tree.c
+D:\Codes\BST\tree.c(84,21): error C2143: syntax error: missing ')' before '*'
+D:\Codes\BST\tree.c(84,21): error C2143: syntax error: missing '{' before '*'
+D:\Codes\BST\tree.c(84,27): error C2059: syntax error: ')'
+D:\Codes\BST\tree.c(85,1): error C2054: expected '(' to follow 'root'
+D:\Codes\BST\tree.c(100,20): warning C4047: 'return': 'int' differs in levels of indirection from 'void *'
+D:\Codes\BST\tree.c(103,32): error C2039: 'searched_value': is not a member of 'bst_node'
+D:\Codes\BST\tree.h(4): message : see declaration of 'bst_node'
+D:\Codes\BST\tree.c(104,15): error C2039: 'left': is not a member of 'bst_node'
+D:\Codes\BST\tree.h(4): message : see declaration of 'bst_node'
+D:\Codes\BST\tree.c(104,28): warning C4013: 'Delete' undefined; assuming extern returning int
+D:\Codes\BST\tree.c(104,35): error C2039: 'left': is not a member of 'bst_node'
+D:\Codes\BST\tree.h(4): message : see declaration of 'bst_node'
+D:\Codes\BST\tree.c(104,45): error C2065: 'data': undeclared identifier
+D:\Codes\BST\tree.c(106,19): error C2065: 'data': undeclared identifier
+D:\Codes\BST\tree.c(106,27): error C2039: 'data': is not a member of 'bst_node'
+D:\Codes\BST\tree.h(4): message : see declaration of 'bst_node'
+D:\Codes\BST\tree.c(107,72): warning C4047: '=': 'bst_node *' differs in levels of indirection from 'int'
+D:\Codes\BST\tree.c(112,21): error C2198: 'pop_node': too few arguments for call
+D:\Codes\BST\tree.c(117,17): error C2065: 'aux': undeclared identifier
+D:\Codes\BST\tree.c(117,23): warning C4047: '=': 'int' differs in levels of indirection from 'bst_node *'
+D:\Codes\BST\tree.c(119,22): error C2146: syntax error: missing ';' before identifier 'aux'
+D:\Codes\BST\tree.c(119,13): warning C4550: expression evaluates to a function which is missing an argument list
+D:\Codes\BST\tree.c(119,25): error C2065: 'aux': undeclared identifier
+D:\Codes\BST\tree.c(122,24): error C2039: 'right': is not a member of 'bst_node'
+D:\Codes\BST\tree.h(4): message : see declaration of 'bst_node'
+D:\Codes\BST\tree.c(123,17): error C2065: 'aux': undeclared identifier
+D:\Codes\BST\tree.c(123,23): warning C4047: '=': 'int' differs in levels of indirection from 'bst_node *'
+D:\Codes\BST\tree.c(124,26): error C2039: 'left': is not a member of 'bst_node'
+D:\Codes\BST\tree.h(4): message : see declaration of 'bst_node'
+D:\Codes\BST\tree.c(125,22): error C2146: syntax error: missing ';' before identifier 'aux'
+D:\Codes\BST\tree.c(125,13): warning C4550: expression evaluates to a function which is missing an argument list
+D:\Codes\BST\tree.c(125,25): error C2065: 'aux': undeclared identifier
+D:\Codes\BST\tree.c(129,17): error C2065: 'aux': undeclared identifier
+D:\Codes\BST\tree.c(129,33): error C2039: 'right': is not a member of 'bst_node'
+D:\Codes\BST\tree.h(4): message : see declaration of 'bst_node'
+D:\Codes\BST\tree.c(129,26): error C2198: 'FindMin': too few arguments for call
+D:\Codes\BST\tree.c(130,19): error C2039: 'searched_value': is not a member of 'bst_node'
+D:\Codes\BST\tree.h(4): message : see declaration of 'bst_node'
+D:\Codes\BST\tree.c(130,39): error C2065: 'aux': undeclared identifier
+D:\Codes\BST\tree.c(130,41): error C2223: left of '->searched_value' must point to struct/union
+D:\Codes\BST\tree.c(131,19): error C2039: 'right': is not a member of 'bst_node'
+D:\Codes\BST\tree.h(4): message : see declaration of 'bst_node'
+D:\Codes\BST\tree.c(131,42): error C2039: 'right': is not a member of 'bst_node'
+D:\Codes\BST\tree.h(4): message : see declaration of 'bst_node'
+D:\Codes\BST\tree.c(131,52): error C2065: 'aux': undeclared identifier
+D:\Codes\BST\tree.c(131,54): error C2223: left of '->searched_value' must point to struct/union
+D:\Codes\BST\tree.c(131,35): error C2198: 'pop_node': too few arguments for call
+D:\Codes\BST\tree.c(134,16): warning C4047: 'return': 'int' differs in levels of indirection from 'bst_node *'

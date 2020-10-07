@@ -1,0 +1,2 @@
+D:\Codes\BST\Debug\BST.exe
+D:\Codes\BST\Debug\BST.pdb
